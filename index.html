@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>मुफ्त मोबाइल रिचार्ज | डिजिटल भारत योजना</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background-color: #f1f1f1;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        .offer-section {
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .offer-heading {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        .offer-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+        
+        .offer-box {
+            background-color: #80dc70;
+            border-radius: 18px;
+            padding: 35px 70px;
+            width: 32%;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .offer-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .offer-amount {
+            font-size: 22px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        
+        .offer-link {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        body {
+            background-color: #f1f1f1;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #FF9933, #FFFFFF, #138808);
+            color: #000;
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 2px solid #FF9933;
+        }
+        
+        h1 {
+            font-size: 26px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+        }
+        
+        .subtitle {
+            font-size: 18px;
+            color: #444;
+            margin-bottom: 10px;
+        }
+        
+        .plan-options {
+            display: flex;
+            justify-content: space-between;
+            margin: 15px 0;
+            flex-wrap: wrap;
+        }
+        
+        .plan-option {
+            background-color: #f8f9fa;
+            color: #333;
+            padding: 15px 0;
+            border-radius: 8px;
+            width: 31%;
+            text-align: center;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 10px;
+            border: 2px solid #ddd;
+            font-size: 20px;
+        }
+        
+        .plan-option:hover {
+            background-color: #e9ecef;
+        }
+        
+        .banner {
+            background-color: #ffe6e6;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 15px 0;
+            border-left: 4px solid #FF9933;
+            text-align: center;
+        }
+        
+        .banner p {
+            color: #d63031;
+            font-weight: bold;
+        }
+        
+        .stats-container {
+            display: flex;
+            justify-content: space-between;
+            margin: 15px 0;
+        }
+        
+        .stat-box {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 10px;
+            width: 48%;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .stat-number {
+            color: #333;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .stat-label {
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .steps {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .steps h2 {
+            text-align: center;
+            margin-bottom: 15px;
+            color: #2980b9;
+        }
+        
+        .step {
+            display: flex;
+            margin-bottom: 15px;
+            align-items: center;
+        }
+        
+        .step-number {
+            background-color: #3498db;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+        
+        .step-content {
+            flex-grow: 1;
+        }
+        
+        .step h3 {
+            margin-bottom: 5px;
+            color: #333;
+        }
+        
+        .step p {
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .cta-container {
+            text-align: center;
+            margin: 30px 0;
+            position: relative;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(to right, #2ecc71, #27ae60);
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            margin: 0 auto;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            position: relative;
+            overflow: hidden;
+            animation: pulse 2s infinite;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            background: linear-gradient(to right, #27ae60, #2ecc71);
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+        }
+        
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        
+        .networks {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        
+        .network {
+            width: 60px;
+            height: 60px;
+            margin: 0 10px;
+            background-color: #fff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .trust-badges {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        
+        .badge {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 22%;
+            text-align: center;
+            font-size: 12px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        
+        .badge-icon {
+            background-color: #e1f5fe;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 5px;
+            color: #03a9f4;
+            font-size: 18px;
+        }
+        
+        .testimonials {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .testimonials h2 {
+            text-align: center;
+            margin-bottom: 15px;
+            color: #2980b9;
+        }
+        
+        .testimonial {
+            border-bottom: 1px solid #eee;
+            padding: 15px 0;
+            display: flex;
+        }
+        
+        .testimonial:last-child {
+            border-bottom: none;
+        }
+        
+        .testimonial-image {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 15px;
+            flex-shrink: 0;
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            color: #555;
+        }
+        
+        .testimonial-content {
+            flex-grow: 1;
+        }
+        
+        .testimonial-name {
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        
+        .testimonial-text {
+            font-size: 14px;
+            color: #666;
+            font-style: italic;
+        }
+        
+        .testimonial-rating {
+            color: #f39c12;
+            margin-top: 5px;
+        }
+        
+        footer {
+            text-align: center;
+            margin: 20px 0;
+            padding: 15px 0;
+            border-top: 1px solid #ddd;
+            font-size: 12px;
+            color: #777;
+        }
+        
+        .disclaimer {
+            font-size: 11px;
+            color: #999;
+            margin-top: 10px;
+        }
+        
+        #countdown {
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 15px 0;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        
+        #countdown.urgent {
+            background-color: #ffe6e6;
+            border-color: #f5c6cb;
+        }
+        
+        #timer {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        #timer.urgent {
+            color: #dc3545;
+        }
+        
+        .mobile-input {
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .mobile-input input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        
+        .mobile-input input:focus {
+            outline: none;
+            border-color: #3498db;
+            box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>डिजिटल भारत योजना</h1>
+            <div class="subtitle">अपना फ्री मोबाइल रिचार्ज प्राप्त करें</div>
+        </header>
+        
+        <div class="offer-section">
+            <h2 class="offer-heading">अपना रिचार्ज प्लान चुनें</h2>
+            <div class="offer-container">
+                <a href="https://contentlocked.net/cl/i/7d6qn5" class="offer-link">
+                    <div class="offer-box">
+                        <div class="offer-amount">₹199</div>
+                        <div class="offer-desc">मूल योजना</div>
+                    </div>
+                </a>
+                
+                <a href="https://appslocked.com/cl/i/e6q7wk" class="offer-link">
+                    <div class="offer-box">
+                        <div class="offer-amount">₹299</div>
+                        <div class="offer-desc">स्टैंडर्ड योजना</div>
+                    </div>
+                </a>
+                
+                <a href="https://contentlocked.net/cl/i/7d6qn5" class="offer-link">
+                    <div class="offer-box">
+                        <div class="offer-amount">₹399</div>
+                        <div class="offer-desc">प्रीमियम योजना</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="banner">
+            <p>सरकारी योजना के तहत सीमित समय के लिए उपलब्ध!</p>
+        </div>
+        
+        <div class="stats-container">
+            <div class="stat-box">
+                <div class="stat-number" id="users-count">531</div>
+                <div class="stat-label">यूजर्स आज रिचार्ज किए</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number" id="slots-left">137</div>
+                <div class="stat-label">स्लॉट्स बचे हुए हैं</div>
+            </div>
+        </div>
+        
+        <div id="countdown">
+            <p>ऑफर समाप्त होने का समय:</p>
+            <div id="timer">00:30:00</div>
+        </div>
+        
+        <div class="steps">
+            <h2>फ्री रिचार्ज कैसे प्राप्त करें</h2>
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <h3>अपना मोबाइल नंबर डालें</h3>
+                    <div class="mobile-input">
+                        <input type="tel" id="mobile-number" placeholder="10 अंकों का मोबाइल नंबर" maxlength="10">
+                    </div>
+                    <p>फ्री रिचार्ज पाने के लिए अपना मोबाइल नंबर सत्यापित करें</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <h3>सर्वे पूरा करें</h3>
+                    <p>छोटा सा सर्वे पूरा करके अपनी पात्रता सुनिश्चित करें</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <h3>रिचार्ज प्राप्त करें</h3>
+                    <p>आपका रिचार्ज 24 घंटे के अंदर आपके नंबर पर पहुंच जाएगा</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cta-container">
+            <a href="https://contentlocked.net/cl/i/7d6qn5" class="cta-button" id="claim-button">अभी क्लेम करें</a>
+        </div>
+        
+        <div class="networks">
+            <div class="network">जियो</div>
+            <div class="network">एयरटेल</div>
+            <div class="network">वी</div>
+            <div class="network">बीएसएनएल</div>
+        </div>
+        
+        <div class="trust-badges">
+            <div class="badge">
+                <div class="badge-icon">✓</div>
+                <span>वेरिफाइड ऑफर</span>
+            </div>
+            <div class="badge">
+                <div class="badge-icon">🔒</div>
+                <span>100% सुरक्षित</span>
+            </div>
+            <div class="badge">
+                <div class="badge-icon">🛡️</div>
+                <span>SSL सिक्योर्ड</span>
+            </div>
+            <div class="badge">
+                <div class="badge-icon">👍</div>
+                <span>आसान प्रक्रिया</span>
+            </div>
+        </div>
+        
+        <div class="testimonials">
+            <h2>खुश ग्राहकों के अनुभव</h2>
+            <div class="testimonial">
+                <div class="testimonial-image">RS</div>
+                <div class="testimonial-content">
+                    <div class="testimonial-name">राहुल शर्मा</div>
+                    <div class="testimonial-text">बहुत अच्छी सेवा! मुझे मेरा ₹299 का रिचार्ज बिलकुल मुफ्त में मिल गया। धन्यवाद!</div>
+                    <div class="testimonial-rating">★★★★★</div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="testimonial-image">PP</div>
+                <div class="testimonial-content">
+                    <div class="testimonial-name">प्रिया पटेल</div>
+                    <div class="testimonial-text">मैंने सोचा था कि यह फेक है, लेकिन 12 घंटे के अंदर मेरा रिचार्ज हो गया। बहुत अच्छी पहल है!</div>
+                    <div class="testimonial-rating">★★★★★</div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="testimonial-image">AK</div>
+                <div class="testimonial-content">
+                    <div class="testimonial-name">अमित कुमार</div>
+                    <div class="testimonial-text">₹399 का रिचार्ज बिल्कुल फ्री में मिला। मेरे सभी दोस्तों को रेकमेंड कर रहा हूँ!</div>
+                    <div class="testimonial-rating">★★★★★</div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>© 2025 डिजिटल भारत योजना - फ्री मोबाइल रिचार्ज</p>
+            <div class="disclaimer">
+                *नियम और शर्तें लागू होती हैं। प्रति सिम कार्ड एक रिचार्ज की अनुमति है। यह ऑफर सीमित समय के लिए वैध है।
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Countdown Timer
+        function startCountdown() {
+            let minutes = 30; // 30 minutes
+            let seconds = 0;
+            
+            function updateTimer() {
+                let formattedMinutes = minutes < 10 ? "0" + minutes : minutes;
+                let formattedSeconds = seconds < 10 ? "0" + seconds : seconds;
+                
+                document.getElementById("timer").innerHTML = `00:${formattedMinutes}:${formattedSeconds}`;
+                
+                if (minutes <= 5) {
+                    document.getElementById("timer").classList.add("urgent");
+                    document.getElementById("countdown").classList.add("urgent");
+                }
+                
+                if (minutes == 0 && seconds == 0) {
+                    clearInterval(timerInterval);
+                    return;
+                }
+                
+                if (seconds == 0) {
+                    minutes--;
+                    seconds = 59;
+                } else {
+                    seconds--;
+                }
+            }
+            
+            updateTimer();
+            let timerInterval = setInterval(updateTimer, 1000);
+        }
+        
+        // Update users count randomly
+        function updateUsersCount() {
+            const usersCount = document.getElementById("users-count");
+            let count = parseInt(usersCount.textContent);
+            
+            setInterval(() => {
+                if (Math.random() > 0.7) {
+                    count += Math.floor(Math.random() * 3) + 1;
+                    usersCount.textContent = count;
+                }
+            }, 5000);
+        }
+        
+        // Update slots left
+        function updateSlotsLeft() {
+            const slotsLeft = document.getElementById("slots-left");
+            let slots = parseInt(slotsLeft.textContent);
+            
+            setInterval(() => {
+                if (Math.random() > 0.8 && slots > 10) {
+                    slots -= Math.floor(Math.random() * 2) + 1;
+                    slotsLeft.textContent = slots;
+                }
+            }, 8000);
+        }
+        
+        // Mobile number validation
+        document.getElementById("mobile-number").addEventListener("input", function(e) {
+            this.value = this.value.replace(/[^0-9]/g, '');
+            if (this.value.length > 10) {
+                this.value = this.value.slice(0, 10);
+            }
+        });
+        
+        // CTA Button click event
+        document.getElementById("claim-button").addEventListener("click", function(e) {
+            const mobileNumber = document.getElementById("mobile-number").value;
+            
+            if (mobileNumber.length !== 10) {
+                alert("कृपया मान्य 10 अंकों का मोबाइल नंबर दर्ज करें");
+                e.preventDefault();
+                return false;
+            }
+            
+            alert(`आपका रिजिस्ट्रेशन ${mobileNumber} पर प्रोसेस हो रहा है। कृपया अगले स्टेप्स फॉलो करें।`);
+            return true;
+        });
+        
+        // Initialize all functions
+        window.onload = function() {
+            startCountdown();
+            updateUsersCount();
+            updateSlotsLeft();
+        };
+    </script>
+</body>
+</html>
